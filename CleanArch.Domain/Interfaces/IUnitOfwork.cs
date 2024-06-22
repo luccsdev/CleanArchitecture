@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CleanArch.Domain.Interfaces
 {
-    internal interface IUnitOfwork
+    public interface IUnitOfWork
     {
         Task Commit(CancellationToken cancellationToken);
     }
